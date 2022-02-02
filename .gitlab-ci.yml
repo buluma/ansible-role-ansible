@@ -19,7 +19,7 @@ molecule:
       - image: "alpine"
         tag: "latest"
       - image: "debian"
-        tag: "latest"
+        tag: "experimental"
       - image: "debian"
         tag: "bookworm"
       - image: "fedora"
@@ -30,8 +30,6 @@ molecule:
         tag: "rawhide"
       - image: "ubuntu"
         tag: "latest"
-      - image: "ubuntu"
-        tag: "bionic"
 
 galaxy:
   script:
