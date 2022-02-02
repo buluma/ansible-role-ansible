@@ -19,8 +19,6 @@ molecule:
       - image: "alpine"
         tag: "latest"
       - image: "debian"
-        tag: "experimental"
-      - image: "debian"
         tag: "bookworm"
       - image: "fedora"
         tag: "34"

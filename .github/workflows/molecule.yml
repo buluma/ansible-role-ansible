@@ -34,8 +34,6 @@ jobs:
       matrix:
         config:
           - image: "debian"   # TODO build alpine
-            tag: "experimental"
-          - image: "debian"
             tag: "bookworm"
           - image: "fedora"
             tag: "34"
