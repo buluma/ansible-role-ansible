@@ -16,8 +16,6 @@ molecule:
   retry: 1
   parallel:
     matrix:
-      - image: "alpine"
-        tag: "latest"
       - image: "debian"
         tag: "bookworm"
       - image: "fedora"
@@ -27,6 +25,8 @@ molecule:
       - image: "fedora"
         tag: "rawhide"
       - image: "ubuntu"
+        tag: "latest"
+      - image: "docker-opensuse-systemd"
         tag: "latest"
 
 galaxy:
