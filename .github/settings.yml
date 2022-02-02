@@ -1,0 +1,8 @@
+---
+#
+# Ansible managed
+#
+repository:
+  description: Install and configure ansible on your system.
+  homepage: https://buluma.co.ke/
+  topics: ansible, ansible, molecule, tox, playbook, hacktoberfest

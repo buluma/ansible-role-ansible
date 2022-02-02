@@ -1,0 +1,12 @@
+---
+- name: Verify
+  hosts: all
+  become: no
+  gather_facts: no
+
+  tasks:
+    - name: run ansible
+      ansible.builtin.shell:
+        cmd: ansible --version > ansible.version
+      args:
+        creates: ansible.version
