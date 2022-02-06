@@ -4,7 +4,7 @@ Install and configure ansible on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
-|[![github](https://github.com/buluma/ansible-role-ansible/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ansible/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-ansible/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-ansible)|[![quality](https://img.shields.io/ansible/quality/)](https://galaxy.ansible.com/buluma/ansible)|[![downloads](https://img.shields.io/ansible/role/d/)](https://galaxy.ansible.com/buluma/ansible)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/releases/)|
+|[![github](https://github.com/buluma/ansible-role-ansible/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ansible/actions)|[![gitlab](https://gitlab.com/buluma/ansible-role-ansible/badges/master/pipeline.svg)](https://gitlab.com/buluma/ansible-role-ansible)|[![quality](https://img.shields.io/ansible/quality/54973)](https://galaxy.ansible.com/buluma/ansible)|[![downloads](https://img.shields.io/ansible/role/d/54973)](https://galaxy.ansible.com/buluma/ansible)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/releases/)|
 
 ## [Example Playbook](#example-playbook)
 
