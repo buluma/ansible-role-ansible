@@ -8,6 +8,10 @@ name: "TODO 2 Issue"
 on:
   push:
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: "ubuntu-20.04"

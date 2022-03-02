@@ -3,13 +3,17 @@ name: Mirror and run GitLab CI
 
 on: [push]
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2.4.0
       - name: Mirror + trigger CI
-        uses: SvanBoxel/gitlab-mirror-and-ci-action@master
+        uses: buluma/gitlab-mirror-ci-action@1.0.6
         with:
           args: "buluma/ansible-role-ansible"
         env:
