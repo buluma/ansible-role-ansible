@@ -87,7 +87,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |alpine|all|
 |el|8|
-|debian|all|
+|debian|bullseye, buster|
 |fedora|all|
 |opensuse|all|
 |ubuntu|all|

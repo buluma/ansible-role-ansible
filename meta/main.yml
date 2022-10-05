@@ -16,7 +16,8 @@ galaxy_info:
         - "8"
     - name: Debian
       versions:
-        - all
+        - bullseye
+        - buster
     - name: Fedora
       versions:
         - all
