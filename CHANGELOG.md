@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-ansible/tree/HEAD)
+## [2.5.1](https://github.com/buluma/ansible-role-ansible/tree/2.5.1) (2023-04-15)
 
-[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.0...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.0...2.5.1)
 
 **Merged pull requests:**
 
