@@ -4,8 +4,9 @@
 #
 
 on:
-  - push
-
+  push:
+    paths:
+      - '.github/workflows/requirements2png.yml'
 name: Ansible Graphviz
 
 jobs:

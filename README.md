@@ -80,6 +80,7 @@ The following roles are used to prepare a system. You can prepare your system in
 This role is a part of many compatible roles. Have a look at [the documentation of these roles](https://buluma.github.io/) for further information.
 
 Here is an overview of related roles:
+
 ![dependencies](https://raw.githubusercontent.com/buluma/ansible-role-ansible/png/requirements.png "Dependencies")
 
 ## [Compatibility](#compatibility)
@@ -90,7 +91,7 @@ This role has been tested on these [container images](https://hub.docker.com/u/b
 |---------|----|
 |[Alpine](https://hub.docker.com/repository/docker/buluma/alpine/general)|all|
 |[EL](https://hub.docker.com/repository/docker/buluma/enterpriselinux/general)|8|
-|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|all|
+|[Debian](https://hub.docker.com/repository/docker/buluma/debian/general)|bookworm|
 |[Fedora](https://hub.docker.com/repository/docker/buluma/fedora/general)|all|
 |[opensuse](https://hub.docker.com/repository/docker/buluma/opensuse/general)|all|
 |[Ubuntu](https://hub.docker.com/repository/docker/buluma/ubuntu/general)|all|

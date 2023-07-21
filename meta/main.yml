@@ -16,7 +16,7 @@ galaxy_info:
         - "8"
     - name: Debian
       versions:
-        - all
+        - bookworm
     - name: Fedora
       versions:
         - all
