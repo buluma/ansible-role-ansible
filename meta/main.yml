@@ -14,9 +14,10 @@ galaxy_info:
     - name: EL
       versions:
         - "8"
+        - "9"
     - name: Debian
       versions:
-        - bookworm
+        - all
     - name: Fedora
       versions:
         - all
