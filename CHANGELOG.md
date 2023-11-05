@@ -1,5 +1,9 @@
 # Changelog
 
+## [v2.5.5](https://github.com/buluma/ansible-role-ansible/tree/v2.5.5) (2023-11-05)
+
+[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.4...v2.5.5)
+
 ## [2.5.4](https://github.com/buluma/ansible-role-ansible/tree/2.5.4) (2023-11-05)
 
 [Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.3...2.5.4)
