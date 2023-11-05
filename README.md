@@ -2,9 +2,9 @@
 
 Install and configure ansible on your system.
 
-|GitHub|GitLab|Quality|Downloads|Version|Issues|Pull Requests|
-|------|------|-------|---------|-------|------|-------------|
-|[![github](https://github.com/buluma/ansible-role-ansible/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ansible/actions)|[![gitlab](https://gitlab.com/shadowwalker/ansible-role-ansible/badges/master/pipeline.svg)](https://gitlab.com/shadowwalker/ansible-role-ansible)|[![quality](https://img.shields.io/ansible/quality/54973)](https://galaxy.ansible.com/buluma/ansible)|[![downloads](https://img.shields.io/ansible/role/d/54973)](https://galaxy.ansible.com/buluma/ansible)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/releases/)|[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/pulls/)|
+|GitHub|GitLab|Downloads|Version|
+|------|------|---------|-------|
+|[![github](https://github.com/buluma/ansible-role-ansible/workflows/Ansible%20Molecule/badge.svg)](https://github.com/buluma/ansible-role-ansible/actions)|[![gitlab](https://gitlab.com/buluma-iac/ansible-role-ansible/badges/master/pipeline.svg)](https://gitlab.com/buluma-iac/ansible-role-ansible)|[![downloads](https://img.shields.io/ansible/role/d/24435)](https://galaxy.ansible.com/buluma/ansible)|[![Version](https://img.shields.io/github/release/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/releases/)||[![Issues](https://img.shields.io/github/issues/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/issues/)|[![PullRequests](https://img.shields.io/github/issues-pr-closed-raw/buluma/ansible-role-ansible.svg)](https://github.com/buluma/ansible-role-ansible/pulls/)
 
 ## [Example Playbook](#example-playbook)
 
@@ -120,4 +120,4 @@ Please consider [sponsoring me](https://github.com/sponsors/buluma).
 
 ### [Special Thanks](#special-thanks)
 
-Template inspired by [Robert de Bock](https://github.com/robertdebock)
+Template inspired by [Robert de Bock](https://github.com/buluma)
