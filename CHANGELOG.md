@@ -1,12 +1,14 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-ansible/tree/HEAD)
+## [2.5.4](https://github.com/buluma/ansible-role-ansible/tree/2.5.4) (2023-11-05)
 
-[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.3...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.3...2.5.4)
 
 **Closed issues:**
 
 - Lunar is Not ready [\#18](https://github.com/buluma/ansible-role-ansible/issues/18)
+- Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#16](https://github.com/buluma/ansible-role-ansible/issues/16)
+- Update action [\#15](https://github.com/buluma/ansible-role-ansible/issues/15)
 
 ## [2.5.3](https://github.com/buluma/ansible-role-ansible/tree/2.5.3) (2023-05-28)
 
