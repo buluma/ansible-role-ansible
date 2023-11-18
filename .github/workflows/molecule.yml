@@ -47,6 +47,8 @@ jobs:
           - image: "enterpriselinux"
             tag: "latest"
           - image: "debian-systemd"
+            tag: "latest"
+          - image: "debian-systemd"
             tag: "bullseye"
           - image: "fedora-systemd"
             tag: "37"
@@ -60,6 +62,8 @@ jobs:
             tag: "focal"
           - image: "docker-ubuntu-systemd"
             tag: "bionic"
+          - image: "docker-ubuntu-systemd"
+            tag: "lunar"
     steps:
       - name: checkout
         uses: actions/checkout@v4
