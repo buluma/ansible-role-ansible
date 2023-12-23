@@ -1,8 +1,8 @@
 # Changelog
 
-## [Unreleased](https://github.com/buluma/ansible-role-ansible/tree/HEAD)
+## [2.5.6](https://github.com/buluma/ansible-role-ansible/tree/2.5.6) (2023-12-17)
 
-[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.5...HEAD)
+[Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.5.5...2.5.6)
 
 **Closed issues:**
 
@@ -33,6 +33,7 @@
 **Merged pull requests:**
 
 - Bump buluma/molecule-action from 5.0.4 to 5.0.5 [\#13](https://github.com/buluma/ansible-role-ansible/pull/13) ([dependabot[bot]](https://github.com/apps/dependabot))
+- Bump actions/checkout from 2.4.0 to 3 [\#2](https://github.com/buluma/ansible-role-ansible/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.5.1](https://github.com/buluma/ansible-role-ansible/tree/2.5.1) (2023-04-15)
 
@@ -81,10 +82,6 @@
 ## [2.1.8](https://github.com/buluma/ansible-role-ansible/tree/2.1.8) (2022-03-02)
 
 [Full Changelog](https://github.com/buluma/ansible-role-ansible/compare/2.1.7...2.1.8)
-
-**Merged pull requests:**
-
-- Bump actions/checkout from 2.4.0 to 3 [\#2](https://github.com/buluma/ansible-role-ansible/pull/2) ([dependabot[bot]](https://github.com/apps/dependabot))
 
 ## [2.1.7](https://github.com/buluma/ansible-role-ansible/tree/2.1.7) (2022-02-12)
 
