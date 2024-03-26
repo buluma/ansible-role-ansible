@@ -4,7 +4,7 @@
   ansible.builtin.assert:
     that:
       - ansible_configuration is iterable
-    quiet: yes
+    quiet: true
   when:
     - ansible_configuration is defined
 
@@ -14,7 +14,7 @@
       - item.option is defined
       - item.option is string
       - item.value is defined
-    quiet: yes
+    quiet: true
   loop: "{{ ansible_configuration }}"
   loop_control:
     label: "{{ item.option }}"

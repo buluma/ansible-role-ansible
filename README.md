@@ -14,8 +14,8 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 ---
 - name: Converge
   hosts: all
-  become: yes
-  gather_facts: yes
+  become: true
+  gather_facts: true
 
   roles:
     - role: buluma.ansible
@@ -27,8 +27,8 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
 ---
 - name: Prepare
   hosts: all
-  gather_facts: no
-  become: yes
+  gather_facts: false
+  become: true
 
   roles:
     - role: buluma.bootstrap
@@ -51,7 +51,7 @@ ansible_configuration:
   - option: roles_path
     value: roles
   - option: retry_files_enabled
-    value: "no"
+    value: "false"
   - option: inventory
     value: inventory
   - option: stdout_callback

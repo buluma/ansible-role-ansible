@@ -3,7 +3,7 @@
 
 - name: Import assert.yml
   ansible.builtin.import_tasks: assert.yml
-  run_once: yes
+  run_once: true
   delegate_to: localhost
 
 - name: Install ansible
@@ -27,7 +27,7 @@
 - name: Mark configuration file as ansible managed
   ansible.builtin.lineinfile:
     path: "{{ ansible_configuration_directory }}/{{ ansible_configuration_file }}"
-    create: yes
+    create: true
     insertbefore: BOF
     line: "# This file is managed by Ansible."
     mode: "0644"
