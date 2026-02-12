@@ -5,4 +5,4 @@
 repository:
   description: Install and configure ansible on your system.
   homepage: https://buluma.github.io/
-  topics: ansible, system, development, ansible, molecule, tox, playbook
+  topics: ansible, system, development, ansible, molecule, playbook
