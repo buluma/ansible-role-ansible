@@ -6,7 +6,9 @@
 
 **Closed issues:**
 
+- rebuild action [\#23](https://github.com/buluma/ansible-role-ansible/issues/23)
 - Update buluma/todo-to-issue-action@v1.0.1 @buluma [\#21](https://github.com/buluma/ansible-role-ansible/issues/21)
+- Update action [\#20](https://github.com/buluma/ansible-role-ansible/issues/20)
 
 **Merged pull requests:**
 
