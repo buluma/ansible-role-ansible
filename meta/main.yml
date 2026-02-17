@@ -9,22 +9,22 @@ galaxy_info:
   platforms:
     - name: Alpine
       versions:
-       - all
+        - all
     - name: EL
       versions:
-       - all
+        - all
     - name: Debian
       versions:
-       - all
+        - all
     - name: Fedora
       versions:
-       - all
+        - all
     - name: opensuse
       versions:
-       - all
+        - all
     - name: Ubuntu
       versions:
-       - all
+        - all
   galaxy_tags:
     - ansible
     - system
