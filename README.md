@@ -12,29 +12,29 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
 
 ```yaml
 ---
-  - name: Converge
-    hosts: all
-    become: true
-    gather_facts: true
+- name: Converge
+  hosts: all
+  become: true
+  gather_facts: true
 
-    roles:
-      - role: buluma.ansible
+  roles:
+  - role: buluma.ansible
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-ansible/blob/master/molecule/default/prepare.yml):
 
 ```yaml
 ---
-  - name: Prepare
-    hosts: all
-    gather_facts: false
-    become: true
+- name: Prepare
+  hosts: all
+  gather_facts: false
+  become: true
 
-    roles:
-      - role: buluma.bootstrap
-      - role: buluma.epel
-      - role: buluma.buildtools
-      - role: buluma.python_pip
+  roles:
+  - role: buluma.bootstrap
+  - role: buluma.epel
+  - role: buluma.buildtools
+  - role: buluma.python_pip
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.
@@ -48,16 +48,16 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for ansible
 
 ansible_configuration:
-  - option: roles_path
-    value: roles
-  - option: retry_files_enabled
-    value: "false"
-  - option: inventory
-    value: inventory
-  - option: stdout_callback
-    value: yaml
-  - option: callback_whitelist
-    value: profile_roles
+- option: roles_path
+  value: roles
+- option: retry_files_enabled
+  value: "false"
+- option: inventory
+  value: inventory
+- option: stdout_callback
+  value: yaml
+- option: callback_whitelist
+  value: profile_roles
 ```
 
 ## [Requirements](#requirements)
