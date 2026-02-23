@@ -1,11 +1,10 @@
----
-- name: Prepare
-  hosts: all
-  gather_facts: false
-  become: true
+  - name: Prepare
+    hosts: all
+    gather_facts: false
+    become: true
 
-  roles:
-    - role: buluma.bootstrap
-    - role: buluma.epel
-    - role: buluma.buildtools
-    - role: buluma.python_pip
+    roles:
+      - role: buluma.bootstrap
+      - role: buluma.epel
+      - role: buluma.buildtools
+      - role: buluma.python_pip
