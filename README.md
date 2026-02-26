@@ -48,16 +48,16 @@ The default values for the variables are set in [`defaults/main.yml`](https://gi
 # defaults file for ansible
 
 ansible_configuration:
-- option: roles_path
-  value: roles
-- option: retry_files_enabled
-  value: "false"
-- option: inventory
-  value: inventory
-- option: stdout_callback
-  value: yaml
-- option: callback_whitelist
-  value: profile_roles
+  - option: roles_path
+    value: roles
+  - option: retry_files_enabled
+    value: "false"
+  - option: inventory
+    value: inventory
+  - option: stdout_callback
+    value: yaml
+  - option: callback_whitelist
+    value: profile_roles
 ```
 
 ## [Requirements](#requirements)
