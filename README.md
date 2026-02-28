@@ -18,7 +18,7 @@ This example is taken from [`molecule/default/converge.yml`](https://github.com/
   gather_facts: true
 
   roles:
-  - role: buluma.ansible
+    - role: buluma.ansible
 ```
 
 The machine needs to be prepared. In CI this is done using [`molecule/default/prepare.yml`](https://github.com/buluma/ansible-role-ansible/blob/master/molecule/default/prepare.yml):
@@ -31,10 +31,10 @@ The machine needs to be prepared. In CI this is done using [`molecule/default/pr
   become: true
 
   roles:
-  - role: buluma.bootstrap
-  - role: buluma.epel
-  - role: buluma.buildtools
-  - role: buluma.python_pip
+    - role: buluma.bootstrap
+    - role: buluma.epel
+    - role: buluma.buildtools
+    - role: buluma.python_pip
 ```
 
 Also see a [full explanation and example](https://buluma.github.io/how-to-use-these-roles.html) on how to use these roles.

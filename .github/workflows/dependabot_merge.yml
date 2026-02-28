@@ -1,13 +1,18 @@
+---
 #
 # Ansible managed
 #
+
 name: "Dependabot Merge"
+
 on:
   pull_request:
   pull_request_target:
+
 permissions:
   contents: write
   pull-requests: write
+
 jobs:
   dependabot_merge:
     runs-on: "ubuntu-latest"
