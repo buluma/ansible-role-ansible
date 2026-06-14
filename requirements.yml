@@ -5,5 +5,5 @@ roles:
   - name: buluma.epel
   - src: https://github.com/buluma/ansible-role-python_pip
     name: buluma.python_pip
-collections: []
+collections:
   - community.general
