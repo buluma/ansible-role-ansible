@@ -5,9 +5,13 @@
   gather_facts: false
 
   tasks:
-    - name: Run ansible
-      ansible.builtin.shell:
+    - name: Check ansible is installed
+      ansible.builtin.command:
+        cmd: ansible --version
       changed_when: false
-        cmd: ansible --version > ansible.version
-      args:
-        creates: ansible.version
+      register: ansible_check
+
+    - name: Assert ansible is available
+      ansible.builtin.assert:
+        that: ansible_check.rc == 0
+        fail_msg: "ansible command not available"
